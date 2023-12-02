@@ -1,5 +1,3 @@
-
-
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS authors;
 
@@ -14,8 +12,6 @@ CREATE TABLE books (
     release_year int,
     author_id int
 );
-
-
 
 INSERT INTO authors (author_name) VALUES ('George Orwell');
 INSERT INTO authors (author_name) VALUES ('Fyodor Dostoevsky');
